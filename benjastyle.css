@@ -1,0 +1,138 @@
+:root{
+    --DARKPRIMARYCOLOR: #00796B;
+    --ACCENTCOLOR: #607D8B;
+    --LIGHTPRIMARYCOLOR: #B2DFDB;
+    --primarytext: #212121;
+    --PRIMARYCOLOR: #009688;
+    --SECONDARYTEXT: #757575;
+    --DIVIDERCOLOR: #BDBDBD;
+    --TEXTICON: #FFFFFF;
+    --FONTPRINCIPAL: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    font-family:var(--FONTPRINCIPAL);
+    /* background: rgba(255,255,255,1); */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='48.5' height='42' viewBox='0 0 34.64101615137755 30' patternUnits='userSpaceOnUse' patternTransform='rotate(140)'%3E%3Crect width='100%25' height='100%25' fill='rgba(237, 242, 247,1)'/%3E%3Cpath d='M-20-20h200v200h-200M34.21 25.25L25.98 20.5L17.75 25.25L17.75 34.75L25.98 39.5L34.21 34.75zM16.89 25.25L8.66 20.5L0.43 25.25L0.43 34.75L8.66 39.5L16.89 34.75zM8.23 10.25L0 5.5L-8.23 10.25L-8.23 19.75L0 24.5L8.23 19.75zM16.89-4.75L8.66-9.5L0.43-4.75L0.43 4.75L8.66 9.5L16.89 4.75zM34.21-4.75L25.98-9.5L17.75-4.75L17.75 4.75L25.98 9.5L34.21 4.75zM42.87 10.25L34.64 5.5L26.41 10.25L26.41 19.75L34.64 24.5L42.87 19.75zM25.55 10.25L17.32 5.5L9.09 10.25L9.09 19.75L17.32 24.5L25.55 19.75z' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M-20-20h200v200h-200M43.21 25.25L34.98 20.5L26.75 25.25L26.75 34.75L34.98 39.5L43.21 34.75zM25.89 25.25L17.66 20.5L9.43 25.25L9.43 34.75L17.66 39.5L25.89 34.75zM17.23 10.25L9 5.5L0.77 10.25L0.77 19.75L9 24.5L17.23 19.75zM25.89-4.75L17.66-9.5L9.43-4.75L9.43 4.75L17.66 9.5L25.89 4.75zM43.21-4.75L34.98-9.5L26.75-4.75L26.75 4.75L34.98 9.5L43.21 4.75zM51.87 10.25L43.64 5.5L35.41 10.25L35.41 19.75L43.64 24.5L51.87 19.75zM60.53 25.25L52.3 20.5L44.07 25.25L44.07 34.75L52.3 39.5L60.53 34.75zM34.55 40.25L26.32 35.5L18.09 40.25L18.09 49.75L26.32 54.5L34.55 49.75zM8.57 25.25L0.34 20.5L-7.89 25.25L-7.89 34.75L0.34 39.5L8.57 34.75zM8.57-4.75L0.34-9.5L-7.89-4.75L-7.89 4.75L0.34 9.5L8.57 4.75zM34.55-19.75L26.32-24.5L18.09-19.75L18.09-10.25L26.32-5.5L34.55-10.25zM60.53-4.75L52.3-9.5L44.07-4.75L44.07 4.75L52.3 9.5L60.53 4.75zM51.87 40.25L43.64 35.5L35.41 40.25L35.41 49.75L43.64 54.5L51.87 49.75zM17.23 40.25L9 35.5L0.77 40.25L0.77 49.75L9 54.5L17.23 49.75zM-0.09 10.25L-8.32 5.5L-16.55 10.25L-16.55 19.75L-8.32 24.5L-0.09 19.75zM17.23-19.75L9-24.5L0.77-19.75L0.77-10.25L9-5.5L17.23-10.25zM51.87-19.75L43.64-24.5L35.41-19.75L35.41-10.25L43.64-5.5L51.87-10.25zM69.19 10.25L60.96 5.5L52.73 10.25L52.73 19.75L60.96 24.5L69.19 19.75zM34.55 10.25L26.32 5.5L18.09 10.25L18.09 19.75L26.32 24.5L34.55 19.75z' fill='rgba(236, 201, 75,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ") */
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='23.09' height='20' viewBox='0 0 34.64101615137755 30' patternUnits='userSpaceOnUse' patternTransform='rotate(118)'%3E%3Crect width='100%25' height='100%25' fill='rgba(240, 255, 244,1)'/%3E%3Cpath d='M-20-20h200v200h-200M34.21 25.25L25.98 20.5L17.75 25.25L17.75 34.75L25.98 39.5L34.21 34.75zM16.89 25.25L8.66 20.5L0.43 25.25L0.43 34.75L8.66 39.5L16.89 34.75zM8.23 10.25L0 5.5L-8.23 10.25L-8.23 19.75L0 24.5L8.23 19.75zM16.89-4.75L8.66-9.5L0.43-4.75L0.43 4.75L8.66 9.5L16.89 4.75zM34.21-4.75L25.98-9.5L17.75-4.75L17.75 4.75L25.98 9.5L34.21 4.75zM42.87 10.25L34.64 5.5L26.41 10.25L26.41 19.75L34.64 24.5L42.87 19.75zM25.55 10.25L17.32 5.5L9.09 10.25L9.09 19.75L17.32 24.5L25.55 19.75z' fill='rgba(203, 213, 224,1)' filter='url(%23filter-doodad-1)'/%3E%3Cpath d='M-20-20h200v200h-200M39.21 25.25L30.98 20.5L22.75 25.25L22.75 34.75L30.98 39.5L39.21 34.75zM21.89 25.25L13.66 20.5L5.43 25.25L5.43 34.75L13.66 39.5L21.89 34.75zM13.23 10.25L5 5.5L-3.23 10.25L-3.23 19.75L5 24.5L13.23 19.75zM21.89-4.75L13.66-9.5L5.43-4.75L5.43 4.75L13.66 9.5L21.89 4.75zM39.21-4.75L30.98-9.5L22.75-4.75L22.75 4.75L30.98 9.5L39.21 4.75zM47.87 10.25L39.64 5.5L31.41 10.25L31.41 19.75L39.64 24.5L47.87 19.75zM56.53 25.25L48.3 20.5L40.07 25.25L40.07 34.75L48.3 39.5L56.53 34.75zM30.55 40.25L22.32 35.5L14.09 40.25L14.09 49.75L22.32 54.5L30.55 49.75zM4.57 25.25L-3.66 20.5L-11.89 25.25L-11.89 34.75L-3.66 39.5L4.57 34.75zM4.57-4.75L-3.66-9.5L-11.89-4.75L-11.89 4.75L-3.66 9.5L4.57 4.75zM30.55-19.75L22.32-24.5L14.09-19.75L14.09-10.25L22.32-5.5L30.55-10.25zM56.53-4.75L48.3-9.5L40.07-4.75L40.07 4.75L48.3 9.5L56.53 4.75zM47.87 40.25L39.64 35.5L31.41 40.25L31.41 49.75L39.64 54.5L47.87 49.75zM13.23 40.25L5 35.5L-3.23 40.25L-3.23 49.75L5 54.5L13.23 49.75zM-4.09 10.25L-12.32 5.5L-20.55 10.25L-20.55 19.75L-12.32 24.5L-4.09 19.75zM13.23-19.75L5-24.5L-3.23-19.75L-3.23-10.25L5-5.5L13.23-10.25zM47.87-19.75L39.64-24.5L31.41-19.75L31.41-10.25L39.64-5.5L47.87-10.25zM65.19 10.25L56.96 5.5L48.73 10.25L48.73 19.75L56.96 24.5L65.19 19.75zM30.55 10.25L22.32 5.5L14.09 10.25L14.09 19.75L22.32 24.5L30.55 19.75z' fill='rgba(190, 227, 248,1)'/%3E%3C/pattern%3E%3Cfilter id='filter-doodad-1'%3E%3CfeTurbulence baseFrequency='2' numOctaves='2' type='fractalNoise' result='result1'/%3E%3CfeDisplacementMap in2='result1' scale='0' result='result2' xChannelSelector='R' in='SourceGraphic'/%3E%3CfeComposite in2='result2' in='SourceGraphic' operator='atop' result='fbSourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ")
+}
+
+h1{
+    font-size: 40px; 
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
+
+.title{
+    color: var(--primarytext);
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--FONTPRINCIPAL);
+}
+.nav-bg{
+    background-color: var(--DARKPRIMARYCOLOR);
+}
+
+.primary-nav {
+    background-color: var(--DARKPRIMARYCOLOR);
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.primary-nav a{
+    color: var(--TEXTICON);
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.primary-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 0;
+}
+
+.programacion, .arduino, .series, .oleo{
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 1px solid #000000;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--LIGHTPRIMARYCOLOR);
+    
+}
+
+.programacion p, .arduino p, .series p, .oleo p{
+    text-align: left;
+    color: var(--SECONDARYTEXT);
+}
+
+.programacion h2, .arduino h2, .series h2, .oleo h2{
+    text-align: center;
+}
+
+.programacion svg, .arduino svg, .series svg, .oleo svg{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.pasatiempos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pasatiempos {
+    flex: 1 0 auto;
+}
+
+.footer-bg{
+    background-color: var(--DARKPRIMARYCOLOR);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+#instagram, #mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#instagram h3, #instagram h4, #mail h3, #mail h4 {
+    line-height: 1.6;
+    margin: 0;
+}
+
+.footer-bg {
+    flex-shrink: 0;
+}
+
